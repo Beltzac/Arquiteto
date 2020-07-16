@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beltzac.Arquiteto.Desktop", "Beltzac.Arquiteto.Desktop\Beltzac.Arquiteto.Desktop.csproj", "{99F9A885-F209-4C11-AB1D-8D701AC4F615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beltzac.Arquiteto.Desktop", "Beltzac.Arquiteto.Desktop\Beltzac.Arquiteto.Desktop.csproj", "{99F9A885-F209-4C11-AB1D-8D701AC4F615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beltzac.Arquiteto.API", "Beltzac.Arquiteto.API\Beltzac.Arquiteto.API.csproj", "{17CB2018-D68A-479F-880A-E6CE860ED93D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{99F9A885-F209-4C11-AB1D-8D701AC4F615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F9A885-F209-4C11-AB1D-8D701AC4F615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F9A885-F209-4C11-AB1D-8D701AC4F615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CB2018-D68A-479F-880A-E6CE860ED93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CB2018-D68A-479F-880A-E6CE860ED93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CB2018-D68A-479F-880A-E6CE860ED93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CB2018-D68A-479F-880A-E6CE860ED93D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
