@@ -5,11 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.5.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Beltzac.Arquiteto.Dominio\Beltzac.Arquiteto.Dominio.csproj" />
+    <ProjectReference Include="..\Beltzac.Arquiteto.Infraestrutura.Dados\Beltzac.Arquiteto.Infraestrutura.Dados.csproj" />
     <ProjectReference Include="..\Beltzac.Arquiteto.Modelos\Beltzac.Arquiteto.Modelos.csproj" />
   </ItemGroup>
 

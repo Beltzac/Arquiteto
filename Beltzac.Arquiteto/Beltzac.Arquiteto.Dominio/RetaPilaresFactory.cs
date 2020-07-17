@@ -40,6 +40,8 @@ namespace Beltzac.Arquiteto.Dominio
 
             double tamanhoVao = barracao.TamanhoMetros / qtdVaos;
 
+            barracao.TamanhoVaoMetros = tamanhoVao;
+
             for (int i = 0; i < qtdPilares; i++)
             {
                 Pilar pilar = new Pilar(i * tamanhoVao);

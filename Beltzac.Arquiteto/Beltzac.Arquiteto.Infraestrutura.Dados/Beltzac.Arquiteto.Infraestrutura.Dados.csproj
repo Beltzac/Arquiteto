@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Beltzac.Arquiteto.Dominio\Beltzac.Arquiteto.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>
