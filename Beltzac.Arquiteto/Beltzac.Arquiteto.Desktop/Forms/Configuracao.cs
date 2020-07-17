@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Beltzac.Arquiteto.Desktop
@@ -17,12 +18,22 @@ namespace Beltzac.Arquiteto.Desktop
             _arquitetoAPI = arquitetoAPI;
             InitializeComponent();
 
-
+            var config = _arquitetoAPI.GetConfiguracao().Result;
+            distanciaBaseReforcada.Text = config.DistanciaMaximaParaBaseReforcadaMetros.ToString();
+            distanciaMaxima.Text = config.DistanciaMaximaEntrePilaresMetros.ToString();
+            distanciaTotalMinima.Text = config.DistanciaTotalMinimaMetros.ToString();            
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
+            var config = new Modelos.Configuracao
+            {
+                DistanciaMaximaParaBaseReforcadaMetros = double.Parse(distanciaBaseReforcada.Text),
+                DistanciaMaximaEntrePilaresMetros = double.Parse(distanciaMaxima.Text),
+                DistanciaTotalMinimaMetros = double.Parse(distanciaTotalMinima.Text)
+            };
 
+            await _arquitetoAPI.SetConfiguracao(config);
         }
     }
 }

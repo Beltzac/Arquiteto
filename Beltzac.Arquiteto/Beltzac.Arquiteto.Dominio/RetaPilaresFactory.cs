@@ -44,7 +44,7 @@ namespace Beltzac.Arquiteto.Dominio
 
             for (int i = 0; i < qtdPilares; i++)
             {
-                Pilar pilar = new Pilar(i * tamanhoVao);
+                Pilar pilar = new Pilar(i + 1, i * tamanhoVao);
                 barracao.Pilares.Add(pilar);
             }
         }

@@ -6,11 +6,13 @@ namespace Beltzac.Arquiteto.Infraestrutura.Externo
 {
     public interface IArquitetoAPI
     {
-        [Get("/configuracao/")]
+        [Get("/Configuracao/")]
         public Task<Configuracao> GetConfiguracao();
-        [Post("/configuracao/")]
-        public Task GetConfiguracao(Configuracao configuracao);
-        [Get("/reta-pilares?tamanho={tamanhoReta}")]
+
+        [Post("/Configuracao/")]
+        public Task SetConfiguracao(Configuracao configuracao);
+
+        [Get("/RetaPilares?tamanho={tamanhoReta}")]
         public Task<RetaPilares> CalcularRetaPilares(double tamanhoReta);
     }
 }

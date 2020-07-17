@@ -1,3 +1,5 @@
+using Beltzac.Arquiteto.Infraestrutura.Externo;
+using Refit;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,9 @@ namespace Beltzac.Arquiteto.Desktop
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Barracao());
+
+            var api = RestService.For<IArquitetoAPI>("https://localhost:44340/");
+            Application.Run(new Barracao(api));
         }
     }
 }

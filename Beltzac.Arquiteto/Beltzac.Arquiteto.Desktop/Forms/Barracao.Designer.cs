@@ -36,10 +36,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.pilaresBaseReforcada = new System.Windows.Forms.Label();
+            this.qtdBasesReforcadas = new System.Windows.Forms.Label();
+            this.distanciaPilares = new System.Windows.Forms.Label();
+            this.qtdPilares = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -97,41 +97,41 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Pilares Base Reforçada:";
             // 
-            // label6
+            // pilaresBaseReforcada
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(145, 127);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "label6";
+            this.pilaresBaseReforcada.AutoSize = true;
+            this.pilaresBaseReforcada.Location = new System.Drawing.Point(145, 127);
+            this.pilaresBaseReforcada.Name = "pilaresBaseReforcada";
+            this.pilaresBaseReforcada.Size = new System.Drawing.Size(38, 15);
+            this.pilaresBaseReforcada.TabIndex = 6;
+            this.pilaresBaseReforcada.Text = "label6";
             // 
-            // label7
+            // qtdBasesReforcadas
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(183, 112);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "label7";
+            this.qtdBasesReforcadas.AutoSize = true;
+            this.qtdBasesReforcadas.Location = new System.Drawing.Point(183, 112);
+            this.qtdBasesReforcadas.Name = "qtdBasesReforcadas";
+            this.qtdBasesReforcadas.Size = new System.Drawing.Size(38, 15);
+            this.qtdBasesReforcadas.TabIndex = 7;
+            this.qtdBasesReforcadas.Text = "label7";
             // 
-            // label8
+            // distanciaPilares
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(143, 97);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "label8";
+            this.distanciaPilares.AutoSize = true;
+            this.distanciaPilares.Location = new System.Drawing.Point(143, 97);
+            this.distanciaPilares.Name = "distanciaPilares";
+            this.distanciaPilares.Size = new System.Drawing.Size(38, 15);
+            this.distanciaPilares.TabIndex = 8;
+            this.distanciaPilares.Text = "label8";
             // 
-            // label9
+            // qtdPilares
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(127, 82);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "label9";
+            this.qtdPilares.AutoSize = true;
+            this.qtdPilares.Location = new System.Drawing.Point(127, 82);
+            this.qtdPilares.Name = "qtdPilares";
+            this.qtdPilares.Size = new System.Drawing.Size(38, 15);
+            this.qtdPilares.TabIndex = 9;
+            this.qtdPilares.Text = "label9";
             // 
             // button1
             // 
@@ -141,6 +141,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -168,10 +169,10 @@
             this.ClientSize = new System.Drawing.Size(321, 151);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.qtdPilares);
+            this.Controls.Add(this.distanciaPilares);
+            this.Controls.Add(this.qtdBasesReforcadas);
+            this.Controls.Add(this.pilaresBaseReforcada);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -193,10 +194,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label pilaresBaseReforcada;
+        private System.Windows.Forms.Label qtdBasesReforcadas;
+        private System.Windows.Forms.Label distanciaPilares;
+        private System.Windows.Forms.Label qtdPilares;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ImageList imageList1;
