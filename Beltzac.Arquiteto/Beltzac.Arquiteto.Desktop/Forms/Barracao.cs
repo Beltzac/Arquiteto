@@ -15,14 +15,12 @@ namespace Beltzac.Arquiteto.Desktop
         public Barracao()
         {
             InitializeComponent();
-
-            /*
-             o Quantidade de pilares que deverão ser incluídos;
-o A distância dos vãos;
-o Quantidade de bases reforçadas que deverão ser incluídas;
-o Quais pilares deverão receber a base reforçada;
-*/
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var config = new Configuracao();
+            config.Show();
+        }
     }
 }
