@@ -39,7 +39,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 127);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Location = new System.Drawing.Point(13, 129);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -50,7 +51,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 15);
+            this.label1.Location = new System.Drawing.Point(29, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(171, 15);
             this.label1.TabIndex = 1;
@@ -59,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 51);
+            this.label2.Location = new System.Drawing.Point(70, 51);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 15);
             this.label2.TabIndex = 2;
@@ -76,14 +77,14 @@
             // 
             // distanciaMaxima
             // 
-            this.distanciaMaxima.Location = new System.Drawing.Point(190, 12);
+            this.distanciaMaxima.Location = new System.Drawing.Point(206, 12);
             this.distanciaMaxima.Name = "distanciaMaxima";
             this.distanciaMaxima.Size = new System.Drawing.Size(100, 23);
             this.distanciaMaxima.TabIndex = 4;
             // 
             // distanciaTotalMinima
             // 
-            this.distanciaTotalMinima.Location = new System.Drawing.Point(149, 48);
+            this.distanciaTotalMinima.Location = new System.Drawing.Point(206, 48);
             this.distanciaTotalMinima.Name = "distanciaTotalMinima";
             this.distanciaTotalMinima.Size = new System.Drawing.Size(100, 23);
             this.distanciaTotalMinima.TabIndex = 5;
@@ -99,7 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 164);
+            this.ClientSize = new System.Drawing.Size(333, 164);
             this.Controls.Add(this.distanciaBaseReforcada);
             this.Controls.Add(this.distanciaTotalMinima);
             this.Controls.Add(this.distanciaMaxima);
@@ -108,7 +109,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Configuracao";
-            this.Text = "Configuracao";
+            this.Text = "Configuração";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -102,36 +102,32 @@
             this.pilaresBaseReforcada.AutoSize = true;
             this.pilaresBaseReforcada.Location = new System.Drawing.Point(145, 127);
             this.pilaresBaseReforcada.Name = "pilaresBaseReforcada";
-            this.pilaresBaseReforcada.Size = new System.Drawing.Size(38, 15);
+            this.pilaresBaseReforcada.Size = new System.Drawing.Size(0, 15);
             this.pilaresBaseReforcada.TabIndex = 6;
-            this.pilaresBaseReforcada.Text = "label6";
             // 
             // qtdBasesReforcadas
             // 
             this.qtdBasesReforcadas.AutoSize = true;
             this.qtdBasesReforcadas.Location = new System.Drawing.Point(183, 112);
             this.qtdBasesReforcadas.Name = "qtdBasesReforcadas";
-            this.qtdBasesReforcadas.Size = new System.Drawing.Size(38, 15);
+            this.qtdBasesReforcadas.Size = new System.Drawing.Size(0, 15);
             this.qtdBasesReforcadas.TabIndex = 7;
-            this.qtdBasesReforcadas.Text = "label7";
             // 
             // distanciaPilares
             // 
             this.distanciaPilares.AutoSize = true;
             this.distanciaPilares.Location = new System.Drawing.Point(143, 97);
             this.distanciaPilares.Name = "distanciaPilares";
-            this.distanciaPilares.Size = new System.Drawing.Size(38, 15);
+            this.distanciaPilares.Size = new System.Drawing.Size(0, 15);
             this.distanciaPilares.TabIndex = 8;
-            this.distanciaPilares.Text = "label8";
             // 
             // qtdPilares
             // 
             this.qtdPilares.AutoSize = true;
             this.qtdPilares.Location = new System.Drawing.Point(127, 82);
             this.qtdPilares.Name = "qtdPilares";
-            this.qtdPilares.Size = new System.Drawing.Size(38, 15);
+            this.qtdPilares.Size = new System.Drawing.Size(0, 15);
             this.qtdPilares.TabIndex = 9;
-            this.qtdPilares.Text = "label9";
             // 
             // button1
             // 
