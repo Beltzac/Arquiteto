@@ -1,17 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.5.1" />
+    <PackageReference Include="Refit" Version="5.1.67" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Beltzac.Arquiteto.Dominio\Beltzac.Arquiteto.Dominio.csproj" />
     <ProjectReference Include="..\Beltzac.Arquiteto.Modelos\Beltzac.Arquiteto.Modelos.csproj" />
   </ItemGroup>
-
 
 </Project>

@@ -25,4 +25,8 @@
     <Folder Include="Resources\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Beltzac.Arquiteto.Infraestrutura.Externo\Beltzac.Arquiteto.Infraestrutura.Externo.csproj" />
+  </ItemGroup>
+
 </Project>

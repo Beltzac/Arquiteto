@@ -8,5 +8,6 @@ namespace Beltzac.Arquiteto.Dominio
     public interface IConfiguracaoRepository
     {
         Configuracao GetConfiguracao();
+        void SetConfiguracao(Configuracao configuracao);
     }
 }
