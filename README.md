@@ -25,5 +25,11 @@ Spinner enquanto estiver esperando a api
 Validações de dados
 Telas ainda estão feinhas
 Separar os modelos da api e do dominio (no DDD o ideal é isolar o dominio, da forma que está alterações no modelo do domain afetam a api)
+Injeção de Dependência no Web Forms???? (tentei, mas está me parecendo que não suporta)
 
 ### Imagens
+
+![Screenshot](Imagens/calculo.png)
+![Screenshot](Imagens/configuracao.png)
+![Screenshot](Imagens/api.png)
+
